@@ -1,0 +1,25 @@
+.container {
+  width: 268px;
+  cursor: pointer;
+  display: flex;
+}
+
+.divfollowings {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spanOptions {
+  padding: 2px 2px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5f30e6;
+  min-width: 25px;
+  max-width: auto;
+  height: 25px;
+  border-radius: 25px;
+}

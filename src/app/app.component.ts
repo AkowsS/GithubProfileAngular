@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { iUser } from './Api';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'githubProfile';
+  @Input() title = '';
+  @Input() value = 0;
+  [x: string]: any;
+  user: iUser = {} as iUser;
+
+  getUser(user: iUser) {
+    this.user = user;
+  }
 }
