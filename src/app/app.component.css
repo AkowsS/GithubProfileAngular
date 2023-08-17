@@ -4,7 +4,6 @@ a {
 
 .container {
   width: 100%;
-  min-height: 100vh;
 }
 
 .header {
@@ -22,6 +21,7 @@ a {
 }
 
 .profileInfos {
+  width: 300px;
   max-width: 450px;
   top: 200px;
   display: flex;
@@ -35,6 +35,13 @@ a {
   line-height: 37.5px;
   color: #0d1117;
   margin-top: 30px;
+  transition: all 1s;
+}
+
+.usernameProfile:hover {
+  color:#5f30e6;
+  margin-left: 10px;
+  transition: all 0.5s;
 }
 
 .loginProfile {
